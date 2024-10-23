@@ -1,0 +1,16 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-MEDIA-SEQUENCE:0
+#EXT-X-ALLOW-CACHE:NO
+#EXT-X-TARGETDURATION:11
+#EXTINF:10.080000,
+https://s14.xfast.sbs/media/c/d/cd8f005cb9271ec6200608c6ab8f2063/segment-0.png
+#EXTINF:10.000000,
+https://s13.xfast.sbs/media/c/d/cd8f005cb9271ec6200608c6ab8f2063/segment-1.png
+#EXTINF:10.000000,
+https://s11.xfast.sbs/media/c/d/cd8f005cb9271ec6200608c6ab8f2063/segment-2.png
+#EXTINF:10.880000,
+https://s15.xfast.sbs/media/c/d/cd8f005cb9271ec6200608c6ab8f2063/segment-3.png
+#EXTINF:4.760000,
+https://s15.xfast.sbs/media/c/d/cd8f005cb9271ec6200608c6ab8f2063/segment-4.png
+#EXT-X-ENDLIST

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <script type="text/javascript" charset="utf-8" async="" src="//ssl.p.jwpcdn.com/player/v/8.21.1/jwpsrv.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo</title>
+    <link rel="dns-prefetch" href="//s1.xfast.sbs">
+    <link rel="dns-prefetch" href="//s2.xfast.sbs">
+    <link rel="dns-prefetch" href="//s3.xfast.sbs">
+    <link rel="dns-prefetch" href="//s4.xfast.sbs">
+    <link rel="dns-prefetch" href="//s5.xfast.sbs">
+    <link rel="dns-prefetch" href="//s6.xfast.sbs">
+    <link rel="dns-prefetch" href="//s7.xfast.sbs">
+    <link rel="dns-prefetch" href="//s8.xfast.sbs">
+    <link rel="dns-prefetch" href="//s9.xfast.sbs">
+    <link rel="dns-prefetch" href="//s10.xfast.sbs">
+    <link rel="dns-prefetch" href="//s11.xfast.sbs">
+    <link rel="dns-prefetch" href="//s12.xfast.sbs">
+    <link rel="dns-prefetch" href="//s13.xfast.sbs">
+    <link rel="dns-prefetch" href="//s14.xfast.sbs">
+    <link rel="dns-prefetch" href="//s15.xfast.sbs">
+    <script src="/script/playerframe.js" asp-append-version="true"></script>
+    <script charset="utf-8" src="//ssl.p.jwpcdn.com/player/v/8.21.1/jwplayer.core.controls.js"></script>
+    <script charset="utf-8" src="//ssl.p.jwpcdn.com/player/v/8.21.1/provider.hlsjs.js"></script>
+    <script src="https://cdn.jwplayer.com/libraries/aHJ02Kxl.js"></script>
+
+</head>
+<body>
+   <div id="player"></div>
+
+   <script>
+      var player = jwplayer("player");  // instantiate the player
+      player.setup({
+         file: 'http://playertest.longtailvideo.com/adaptive/wowzaid3/playlist.m3u8',
+         autostart: false,
+         type: "hls",
+         controls: true,
+         controlbar: true,
+         width: '100%',
+         aspectratio: '16:9',
+         primary: "HTML5"
+      });
+
+      player.on("error", function (a) {
+         console.log("Error detected");
+         // Add your error-handling logic here
+      });
+   </script>
+
+</body>
+</html>

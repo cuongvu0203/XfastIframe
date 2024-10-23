@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api.csproj", "{B91A3327-2149-41F8-9716-5F3F96751391}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webframe", "..\Webframe\Webframe.csproj", "{629199E4-DC95-404B-A119-53A6228CC98F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B91A3327-2149-41F8-9716-5F3F96751391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B91A3327-2149-41F8-9716-5F3F96751391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B91A3327-2149-41F8-9716-5F3F96751391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B91A3327-2149-41F8-9716-5F3F96751391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{629199E4-DC95-404B-A119-53A6228CC98F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{629199E4-DC95-404B-A119-53A6228CC98F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{629199E4-DC95-404B-A119-53A6228CC98F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{629199E4-DC95-404B-A119-53A6228CC98F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81704512-A0C7-4EAC-87BF-E0D7E5B0FC52}
+	EndGlobalSection
+EndGlobal
