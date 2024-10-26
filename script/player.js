@@ -5795,14 +5795,13 @@ jQuery(function($) {
         }
 
         if ($("#imdb-play").length > 0) {
-            createSmallPlayer();
-            $('#trv-close').hide();
-        } else {
             let mv_id = $("#imdb-play").data("id");
             let thumb = $("#imdb-play").data('poster');
             let ads = $("#imdb-play").data('ads');
             initPlayer(mv_id, true, thumb, ads);
-            
+        } else {
+            createSmallPlayer();
+            $('#trv-close').hide(); 
         }
     });
 });
