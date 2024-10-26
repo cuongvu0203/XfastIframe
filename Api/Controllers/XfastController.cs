@@ -74,18 +74,6 @@ namespace Api.Controllers
             return result;
         }
 
-        [HttpGet("proxy/m3u8")]
-        public async Task<IActionResult> GetM3U8(string url)
-        {
-            var requestMessage = new HttpRequestMessage(HttpMethod.Get, url);
-            requestMessage.Headers.Referrer = new Uri("https://xfast.sbs/watch/ca185569647.html");
-
-            var response = await _httpClient.SendAsync(requestMessage);
-            var content = await response.Content.ReadAsByteArrayAsync();
-
-            return File(content, response.Content.Headers.ContentType.ToString());
-        }
-
         private string ExtractM3u8Url(string scriptContent)
         {
             // Sử dụng regex để tìm URL m3u8
